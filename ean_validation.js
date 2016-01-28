@@ -14,5 +14,5 @@ function validateEAN(eanCode) {
     if(checksum === 10) {
         checksum = 0;
     }
-    return checksum === parseInt(array[12]);
+    return checksum == array[12];
 }
